@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+li {
+    float: left;
+
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: white;
+}
+input {
+    margin: right; 
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.column {
+     float: left;
+    margin-left: 50px;
+    margin-top: 3px;
+    width: 20%;
+    padding: 10px;
+    height: 200px; 
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnw {
+     float: left;
+    margin-left: 250px;
+    margin-top: 3px;
+    width: 20%;
+    padding: 10px;
+    height: 200px; 
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnww {
+     float: left;
+    margin-left: 50px;
+    margin-top: 3px;
+    width: 20%;
+    padding: 10px;
+    height: 200px; 
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
